@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+main {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 70px;;
+}
+main label{
+    color: rgb(255, 51, 0);
+    background-color: rgb(173, 167, 175);
+    font-size: 100px;
+}
+main p{
+    color: yellow;
+    background-color: black;
+    font-size: 50px;
+}
