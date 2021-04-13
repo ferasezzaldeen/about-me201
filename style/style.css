@@ -27,3 +27,12 @@ ul{
 main{
     background-color: darkgray;
 }
+ol{
+    color: rgb(255, 68, 0);
+    font-size: 30px;  
+}
+.edde{
+    color: gold;
+    background-color: black;
+    font-size: 60px;
+}
