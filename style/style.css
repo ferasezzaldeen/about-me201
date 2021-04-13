@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
-main {
+main section {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 70px;;
 }
-main label{
+.title{
     color: rgb(255, 51, 0);
     background-color: rgb(173, 167, 175);
     font-size: 100px;
@@ -14,4 +14,16 @@ main p{
     color: yellow;
     background-color: black;
     font-size: 50px;
+}
+.top10{
+    color: gold;
+    background-color: black;
+    font-size: 60px;
+}
+ul{
+    color: rgb(255, 68, 0);
+    font-size: 30px;
+}
+main{
+    background-color: darkgray;
 }
