@@ -1,19 +1,37 @@
 'use strict';
+
 let mark=0;
-let nAme=prompt('please enter your name','name');
-alert('welcome '+nAme+' we are gona play alittel game so you can know me better, a simple yes or no question');
+function vName(){
+
+  let mark=0;
+  let nAme=prompt('please enter your name','name');
+  alert('welcome '+nAme+' we are gona play alittel game so you can know me better, a simple yes or no question');
+  
+}
+vName();
+
+
+
+function background(){
 let study=prompt('do you think that I have studied IT before??','yes or no').toLowerCase();
-while(study!=='yes'&&study!=='no'){
-  alert('please answer with yes or no');
-  study=prompt('do you think that I have studied IT before??','yes or no').toLowerCase();
+  while(study!=='yes'&&study!=='no'){
+    alert('please answer with yes or no');
+    study=prompt('do you think that I have studied IT before??','yes or no').toLowerCase();
+  }
+  if(study==='yes'){
+    alert('actully no, my background is civil engineering');
+  }
+  if(study==='no'){
+    alert('thats right, I didnt study IT. I studied civil engineering');
+    mark++;
+  }
 }
-if(study==='yes'){
-  alert('actully no, my background is civil engineering');
-}
-if(study==='no'){
-  alert('thats right, I didnt study IT. I studied civil engineering');
-  mark++;
-}
+background();
+
+
+
+
+function vAge(){
 let age=prompt('do you think that im over 30 years old??','yes or no').toLowerCase();
 console.log('age',age);
 while(age!=='yes' && age!=='no'){
@@ -27,6 +45,10 @@ if(age==='no'){
   alert('thats right, Im 24 years old');
   mark++;
 }
+}
+vAge();
+
+
 let exper=prompt('do you think that I have any working experienc in IT ?? ','yes or no').toLowerCase();
 while(exper!=='yes'&&exper!=='no'){
   alert('please answer with yes or no');
