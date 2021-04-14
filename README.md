@@ -11,3 +11,7 @@ I had use alot of techniques:
 * tolowercase to insure expectation of higher case litter
 * some css for the html file
 
+14/4/2021
+
+* I converted all my question into function.
+* we worked as pair programmers with mahmoud salameh
