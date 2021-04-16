@@ -3,17 +3,26 @@
 main section {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin: 70px;;
+    
 }
 .title{
     color: rgb(255, 51, 0);
-    background-color: rgb(173, 167, 175);
-    font-size: 100px;
+    /* background-color: rgb(173, 167, 175); */
+    font-size: 60px;
+    background-color: gray;
+    text-align: center;
+    
+
 }
+
 main p{
     color: yellow;
     background-color: black;
     font-size: 50px;
+    margin-top: 70px;
+
+
+    
 }
 .top10{
     color: gold;
@@ -36,3 +45,8 @@ ol{
     background-color: black;
     font-size: 60px;
 }
+.title{
+    position: fixed;
+    top: 0px;
+    left: 600px;
+    }

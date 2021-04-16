@@ -7,7 +7,8 @@ function vName(){
   mark=0;
   nAme=prompt('please enter your name','name');
   alert('welcome '+nAme+' we are gona play alittel game so you can know me better, a simple yes or no question');
-
+  console.log(nAme);
+  console.log(mark);
 }
 vName();
 
@@ -26,6 +27,8 @@ function background(){
     alert('thats right, I didnt study IT. I studied civil engineering');
     mark++;
   }
+  console.log(study);
+  console.log(mark);
 }
 background();
 
@@ -46,6 +49,8 @@ function vAge(){
     alert('thats right, Im 24 years old');
     mark++;
   }
+  console.log(age);
+  console.log(mark);
 }
 vAge();
 
@@ -62,6 +67,8 @@ function experience(){
     alert('thats right, Im still studing');
     mark++;
   }
+  console.log(exper);
+  console.log(mark);
 }
 experience();
 function prefer(){
@@ -77,6 +84,8 @@ function prefer(){
   if(past==='no'){
     alert('actully I do');
   }
+  console.log(past);
+  console.log(mark);
 }
 prefer();
 function barcelona(){
@@ -93,6 +102,8 @@ function barcelona(){
     alert('actully Im a barca fan');
 
   }
+  console.log(footBall);
+  console.log(mark);
 }
 barcelona();
 let i=0;
@@ -113,6 +124,8 @@ function birthday(){
   if(i===4){
     alert('the right answer is 1996');
   }
+  console.log(year);
+  console.log(mark);
 }
 birthday();
 function favorite(){
@@ -132,6 +145,8 @@ function favorite(){
       alert('you lost your chances');
     }
     i++;
+    console.log(answ);
+    console.log(mark);
   }
   while(i!==6&&answ!==fruit[0]&&answ!==fruit[1]&&answ!==fruit[2]&&answ!==fruit[3]&&answ!==fruit[4]&&answ!==fruit[5]&&answ!==fruit[6]);
   if(i===6){

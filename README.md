@@ -15,3 +15,7 @@ I had use alot of techniques:
 
 * I converted all my question into function.
 * we worked as pair programmers with mahmoud salameh
+
+16/4/2021
+* I used position skiles on the title (fixid)
+* some css on the main 
